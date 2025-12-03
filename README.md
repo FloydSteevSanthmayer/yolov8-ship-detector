@@ -1,8 +1,8 @@
-# YOLOv8 Ship Detector
+# YOLOv8 Aerial Detector
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.8%2B-green.svg)]()
 
-**Professional, reproducible pipeline for ship detection using YOLOv8 and Label Studio.**
+**Professional, reproducible pipeline for Aerial detection using YOLOv8 and Label Studio.**
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Overview
 
-`yolov8-ship-detector` is a compact, production-minded repository template to train, evaluate and run inference for ship detection on aerial or satellite imagery. It is designed for reproducibility and smooth collaboration between annotators and engineers:
+`yolov8-Aerial-detector` is a compact, production-minded repository template to train, evaluate and run inference for Aerial detection on aerial or satellite imagery. It is designed for reproducibility and smooth collaboration between annotators and engineers:
 
 - Annotation: Label Studio for human labeling and QC.
 - Conversion: Tools to convert Label Studio exports to YOLO format.
@@ -73,7 +73,7 @@ data/
 Each image file must have a corresponding YOLO-format `.txt` label with the same filename stem inside the `labels/<split>/` folder. Example dataset YAML (included as `dataset/ships.yaml`):
 ```yaml
 nc: 1
-names: ['ship']
+names: ['Aerial']
 train: ../data/images/train
 val: ../data/images/val
 test: ../data/images/test
