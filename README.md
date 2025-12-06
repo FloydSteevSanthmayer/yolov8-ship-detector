@@ -134,10 +134,10 @@ For evaluation, compute standard object-detection metrics: mAP@0.5 and mAP@[0.5:
 
 ```
 yolov8-ship-detector/
-├─ ADD_YOUR_NOTEBOOK.ipynb    # Main notebook: replace with your .ipynb
-├─ README.md                  # <-- this file (professional)
+├─ aerial.ipynb    
+├─ README.md                  
 ├─ requirements.txt
-├─ dataset/ships.yaml
+├─ dataset/aerial.yaml
 ├─ flowchart_colored.mmd
 ├─ flowchart_colored.png
 ├─ tools/ls_to_yolo.py        # converter stub (adapt to your export schema)
