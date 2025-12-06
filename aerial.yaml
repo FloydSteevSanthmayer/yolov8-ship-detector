@@ -1,8 +1,0 @@
-names:
-  0: airplane
-nc: 1
-path: /content/drive/MyDrive/Aerial imagery
-train: /content/drive/MyDrive/Aerial imagery/Aerial Imagery.v1i.coco/train/images
-train_labels: /content/drive/MyDrive/Aerial imagery/Aerial Imagery.v1i.coco/train/_annotations.coco.json
-val: /content/drive/MyDrive/Aerial imagery/Aerial Imagery.v1i.coco/valid/images
-val_labels: /content/drive/MyDrive/Aerial imagery/Aerial Imagery.v1i.coco/valid/_annotations.coco.json
